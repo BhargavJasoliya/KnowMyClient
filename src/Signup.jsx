@@ -47,7 +47,7 @@ function Signup() {
               <div className='m-5'></div>
 
               <div>
-                <p className="mb-0">Already have an account? <button onClick={navigateToLogin}>Login</button></p>
+                <p className="mb-0">Already have an account? <button onClick={() => navigate("/login")}>Login</button></p>
                 <Routes><Route path="/Login" element={<Login />} /></Routes>
 
               </div>
